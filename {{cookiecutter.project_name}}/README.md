@@ -112,7 +112,7 @@ Once you've configured your MLFlow server, you can follow [**this tutorial**](ht
 To use Docker to train your model, save your code inside the ```src``` folder, make sure that the ```Dockerfile``` is well configured, open a terminal in this repository roo folder and run:
 
 ```bash
-docker build . -t ml-train
+docker build --network host -t ml-train .
 ```
 
 To serve the model as an endpoint, run (after building):
