@@ -23,5 +23,5 @@ More information about how to use the tools can be found inside the template.
 To use this for your project, you must install ```cookiecutter``` via ```pip``` and then run the following:
 
 ```bash
-cookiecutter 
+cookiecutter https://github.com/viksky/ml-template
 ```
